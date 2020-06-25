@@ -20,7 +20,7 @@ const SignUp: React.FC = () => {
       <Content>
         <img src={logo} alt="GoBarber" />
 
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit} autoComplete="off">
           <h1>Faça seu Cadastro</h1>
 
           <Input name="name" icon={FiUser} placeholder="Nome" />
