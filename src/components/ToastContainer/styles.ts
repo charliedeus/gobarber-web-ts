@@ -16,15 +16,15 @@ export const Container = styled.div`
 const toastTypeVariations = {
   info: css`
     background: #ebf8ff;
-    color: '#3172b7';
+    color: #3172b7;
   `,
   success: css`
     background: #e6fffa;
-    color: '#2e656a';
+    color: #2e656a;
   `,
   error: css`
     background: #fddede;
-    color: '#c53030';
+    color: #c53030;
   `,
 };
 
