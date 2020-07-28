@@ -29,9 +29,9 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...rest }) => {
     setIsFilled(!!inputRef.current?.value);
   }, []);
 
-  const handleInputFocus = useCallback(() => {
-    setIsFocused(true);
-  }, []);
+  // const handleInputFocus = useCallback(() => {
+  //   setIsFocused(true);
+  // }, []);
 
   useEffect(() => {
     registerField({
